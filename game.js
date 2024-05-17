@@ -9,6 +9,24 @@ let enemyImage = new Image();
 playerImage.src = "/hero.png"; // replace with actual path
 enemyImage.src = "/villen.png"; // replace with actual path
 
+function keyDown(e) {
+  // Prevent default action for arrow keys
+  if (["ArrowRight", "ArrowLeft", "ArrowUp", "ArrowDown"].includes(e.key)) {
+    e.preventDefault();
+  }
+
+  if (e.key === "ArrowRight") {
+    moveRight();
+  } else if (e.key === "ArrowLeft") {
+    moveLeft();
+  } else if (e.key === "ArrowUp") {
+    moveUp();
+  } else if (e.key === "ArrowDown") {
+    moveDown();
+  } else if (e.key === " ") {
+    shoot();
+  }
+}
 const player = {
   x: 50,
   y: canvas.height - 100,
