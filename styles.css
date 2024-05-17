@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#instructions h2 {
+  color: #333;
+}
+
+#instructions .Arrow p {
+  color: #555;
+  margin: 10px 0;
+}
+
+#instructions .Arrow p::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+#instructions .Arrow p span {
+  color: #f00;
+  font-weight: bold;
+}
+
+#scoreboard {
+  text-align: center;
+  margin: 20px;
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #fff;
+}
