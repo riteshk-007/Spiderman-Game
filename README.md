@@ -1,8 +1,7 @@
-Here's a comprehensive README for your Spiderman Game project on GitHub:
 
 ---
-
 # Spiderman Game
+---
 
 ![image](https://github.com/riteshk-007/Spiderman-Game/assets/135107962/c7acce52-499d-47ca-a795-ee90fd575735)
 
